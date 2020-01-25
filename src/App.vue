@@ -1,32 +1,36 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view/>
   </div>
 </template>
 
 <style lang="scss">
+  @font-face {
+    font-family: 'AriaMT';
+    src: url('assets/fonts/AriaMT.eot');
+    src: local('☺'), url('assets/fonts/AriaMT.woff') format('woff'), url('assets/fonts/AriaMT.ttf') format('truetype'), url('assets/fonts/AriaMT.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'georgia';
+    src: url('assets/fonts/georgia.eot');
+    src: local('☺'), url('assets/fonts/georgia.woff') format('woff'), url('assets/fonts/georgia.ttf') format('truetype'), url('assets/fonts/georgia.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'times-new-roman';
+    src: url('assets/fonts/times-new-roman.eot');
+    src: local('☺'), url('assets/fonts/times-new-roman.woff') format('woff'), url('assets/fonts/times-new-roman.ttf') format('truetype'), url('assets/fonts/times-new-roman.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'times-new-roman', 'AriaMT', 'georgia', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
 }
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
+  @import "public/null_style";
 </style>
