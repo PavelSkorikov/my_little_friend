@@ -3,6 +3,7 @@
     <div class="wrapper">
       <div class="content">
         <hi/>
+        <about/>
       </div>
     </div>
     <!-- /.wrapper -->
@@ -12,10 +13,12 @@
 
 <script>
 import Hi from '@/views/Hi.vue'
+import About from "@/views/About";
 export default {
   name: 'home',
   components: {
-    Hi
+    Hi,
+    About
   }
 }
 </script>
@@ -32,9 +35,5 @@ export default {
   .content {
   /*позволяем элементу увеличиваться чтобы он прижал футер к низу страницы*/
   flex: 1 1 auto;
-  }
-  .container{
-    max-width: 1170px;
-    margin: 0px auto;
   }
 </style>

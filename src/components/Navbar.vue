@@ -19,8 +19,7 @@
 
 <style scoped lang="scss">
     .navbar {
-        max-width: 463px;
-        margin-left: 132px;
+        width: 463px;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap ;

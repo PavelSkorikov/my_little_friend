@@ -1,9 +1,9 @@
 <template>
-    <div class="hi">
-        <!-- /.hi__img -->
+    <header class="hi">
+        <img src="../assets/images/dog_12173.png" alt="" class="hi__img">
         <div class="container">
             <div class="hi__row">
-                <div class="hi__col">
+                <div class="hi__col-1">
                     <p class="hi__title">
                         <span class="hi__name">Cozy House</span>
                         <span class="hi__subname">Shelter for pets in Boston</span>
@@ -16,13 +16,14 @@
                         <Button label="Make a friend"/>
                     </div>
                 </div>
-                <div class="hi__col">
-                    <Navbar></Navbar>
-                    <img src="../assets/images/dog_12173.png" alt="" class="hi__img">
+                <div class="hi__col-2">
+                    <div class="hi__navbar">
+                        <Navbar></Navbar>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </header>
 </template>
 
 <script>
@@ -38,18 +39,35 @@
 </script>
 
 <style scoped lang="scss">
+    .container{
+        max-width: 1170px;
+        margin: 0px auto;
+    }
     .hi {
         max-width: 100%;
         height: 925px;
         padding-top: 60px;
         background-image: url(../assets/images/background_12165.png);
+        @media (max-width: 600px){
+            padding-top: 10px;
+            height: 500px;
+        }
         &__row {
             display: flex;
+            flex-wrap: wrap-reverse;
         }
-        &__col {
+        &__col-1 {
+            padding: 0 0 10px 10px;
             display: flex;
             flex-direction: column;
             flex: 1 1 50%;
+        }
+        &__col-2 {
+            padding: 0 0 10px 10px;
+            display: flex;
+            flex-direction: column;
+            flex: 1 1 50%;
+            flex-wrap: wrap;
         }
         &__title {
             max-width: 181px;
@@ -100,6 +118,19 @@
             line-height: 24px;
             font-weight: 400;
             color: #cdcdcd;
+        }
+        &__navbar {
+            display: flex;
+            justify-content: flex-end;
+            @media (max-width: 1180px){
+                justify-content: flex-start;
+            }
+            @media (max-width: 750px){
+                max-width: 250px;
+            }
+            @media (max-width: 300px){
+                max-width: 150px;
+            }
         }
         &__img {
             position: absolute;
