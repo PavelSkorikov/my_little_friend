@@ -48,7 +48,7 @@
         height: 925px;
         padding-top: 60px;
         background-image: url(../assets/images/background_12165.png);
-        @media (max-width: 600px){
+        @media (max-width: 800px){
             padding-top: 10px;
             height: 500px;
         }

@@ -20,6 +20,7 @@
 <style scoped lang="scss">
     .navbar {
         width: 463px;
+        height: 31px;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap ;

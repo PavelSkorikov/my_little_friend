@@ -4,6 +4,7 @@
       <div class="content">
         <hi/>
         <about/>
+        <Our_friends />
       </div>
     </div>
     <!-- /.wrapper -->
@@ -12,13 +13,15 @@
 </template>
 
 <script>
-import Hi from '@/views/Hi.vue'
+import Hi from '@/views/Hi.vue';
 import About from "@/views/About";
+import Our_friends from "./Our_friends";
 export default {
   name: 'home',
   components: {
     Hi,
-    About
+    About,
+    Our_friends
   }
 }
 </script>
