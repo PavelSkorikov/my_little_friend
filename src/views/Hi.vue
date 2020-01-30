@@ -13,7 +13,7 @@
                             Not only people need a house
                         </p>
                         <p class="hi__annotate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis esse ipsam iste nostrum possimus provident quae quo repudiandae, similique, tempore unde. Aperiam odit optio reprehenderit voluptates! Minima, possimus, voluptas!</p>
-                        <Button label="Make a friend"/>
+                        <Buttons label="Make a friend"/>
                     </div>
                 </div>
                 <div class="hi__col-2">
@@ -27,12 +27,12 @@
 </template>
 
 <script>
-    import Button from '@/components/Button.vue'
+    import Buttons from '@/components/Buttons.vue'
     import Navbar from "../components/Navbar";
     export default {
         name: "Hi",
         components: {
-            Button,
+            Buttons,
             Navbar
         }
     }
@@ -48,6 +48,10 @@
         height: 925px;
         padding-top: 60px;
         background-image: url(../assets/images/background_12165.png);
+        @media (max-width: 1024px){
+            padding-top: 10px;
+            height: 750px;
+        }
         @media (max-width: 800px){
             padding-top: 10px;
             height: 500px;
@@ -64,6 +68,7 @@
         }
         &__col-2 {
             padding: 0 0 10px 10px;
+            margin-bottom: 30px;
             display: flex;
             flex-direction: column;
             flex: 1 1 50%;
@@ -136,6 +141,8 @@
             position: absolute;
             top: 0;
             left: 950px;
+            display: block;
+            max-width: 100%;
             @media (max-width: 1618px){
                 left: 720px;
             }
@@ -144,9 +151,17 @@
             }
             @media (max-width: 1180px){
                 width: 50%;
-                top: 100px;
+                top: 50px;
+                left: 450px;
             }
-            @media (max-width: 750px){
+            @media (max-width: 900px){
+                width: 40%;
+                left: 400px;
+            }
+            @media (max-width: 700px){
+                left: 330px;
+            }
+            @media (max-width: 530px){
             display: none;
             }
             @media (min-width: 2300px){

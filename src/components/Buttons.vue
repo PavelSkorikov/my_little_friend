@@ -7,7 +7,8 @@
          @mousedown="isPressed=true"
          @mouseup="isPressed=false"
          @mousemove="isMove=true"
-         @mouseleave="isMove=false">
+         @mouseleave="isMove=false"
+         v-on:click="$emit('button_click')">
         <span class="button__label"
               v-bind:class="{ button__label_isblack: black }">
             {{ label }}
@@ -17,7 +18,7 @@
 
 <script>
     export default {
-        name: "button",
+        name: "buttons",
         props: {
             'label': String,
             'black': Boolean,

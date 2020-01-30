@@ -7,13 +7,15 @@
                 <span>are looking for a house</span>
             </div>
             <div class="friends__carusel">
-                <Button label="navigate_before" black small></Button>
-                <Card></Card>
-                <Button label="navigate_next   " black small></Button>
+                <Buttons @button_click="previos" label="navigate_before" black small></Buttons>
+                <div class="friends__cards">
+                    <Card v-for="(item, index) in cards" :key="index" :url="item.url" :name="item.name" />
+                </div>
+                <Buttons @button_click="next" label="navigate_next" black small />
 
 
             </div>
-            <Button label="Get to know the rest" big black/>
+            <Buttons label="Get to know the rest" big black/>
             <!-- /.friends__carusel -->
         </div>
         <!-- /.friends__col -->
@@ -25,27 +27,46 @@
 </template>
 
 <script>
-    import Button from "../components/Button";
+    import Buttons from "../components/Buttons";
     import Card from "../components/Card";
     export default {
         name: "Our_friends",
         components: {
-            Button,
+            Buttons,
             Card
+        },
+        data () {
+            return {
+                cards: [
+                    { name: 'Katrine', url: 'cat_11858.png'},
+                    { name: 'Jennifer', url: 'dog_11868.png'},
+                    { name: 'Woody', url: 'dog_11878.png'}
+                ]
+            }
+        },
+        methods: {
+            next: function () {
+                this.cards.push(this.cards.shift())
+            },
+            previos: function () {
+                this.cards.unshift(this.cards.pop())
+            },
         }
     }
 </script>
 
 <style scoped lang="scss">
     .container {
-        max-width: 1060px;
+        max-width: 1169px;
         margin: 0 auto;
     }
     .friends{
         max-width: 100%;
         padding: 78px 0 68px 0;
-        height: 833px;
         background-color: #f6f6f6;
+        @media (max-width: 1200px) {
+            padding: 28px 0 28px 0;
+        }
         &__col{
             display: flex;
             flex-direction: column;
@@ -63,10 +84,45 @@
             color: #545454;
         }
         &__carusel{
-            height: 424px;
+            width: 1169px;
+            margin: 26px 0 46px 0;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            @media (max-width: 1200px) {
+                max-width: 100%;
+                margin: 16px 0 16px 0;
+                padding-right: 10px;
+                padding-left: 10px;
+            }
+        }
+        &__cards{
+            width: 931px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            @media (max-width: 1200px) {
+                max-width: 100%;
+            }
+            @media (max-width: 920px) {
+                justify-content: center;
+                :nth-child(2){
+                    display: none;
+                }
+                :nth-child(3){
+                    display: none;
+                }
+            }
+            @media (max-width: 400px) {
+                max-width: 220px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            @media (max-width: 330px) {
+                max-width: 200px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
         }
     }
     span{

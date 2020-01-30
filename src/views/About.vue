@@ -30,6 +30,9 @@
     max-width: 100%;
     padding: 89px 0 89px 0;
     background-color: #fafafa;
+    @media (max-width: 997px) {
+      padding: 29px 0 29px 0;
+    }
     &__row{
       display: flex;
       justify-content: space-between;
@@ -39,6 +42,10 @@
       display: flex;
       flex-direction: column;
       max-width: 414px;
+      @media (max-width: 712px) {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
     }
     &__img{
       width: 300px;
