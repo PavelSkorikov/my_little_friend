@@ -6,6 +6,7 @@
         <about/>
         <Our_friends />
         <Help />
+        <Donation />
       </div>
     </div>
     <!-- /.wrapper -->
@@ -18,13 +19,15 @@ import Hi from '@/views/Hi.vue';
 import About from "@/views/About";
 import Our_friends from "./Our_friends";
 import Help from "./Help";
+import Donation from "./Donation";
 export default {
   name: 'home',
   components: {
     Hi,
     About,
     Our_friends,
-    Help
+    Help,
+    Donation
   }
 }
 </script>

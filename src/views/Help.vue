@@ -50,6 +50,9 @@
         max-width: 100%;
         padding: 72px 0 83px 0;
         background-color: #fafafa;
+        @media (max-width: 480px) {
+            padding: 20px 0 20px 0;
+        }
         &__col{
             display: flex;
             flex-direction: column;
