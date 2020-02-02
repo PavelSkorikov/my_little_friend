@@ -1,9 +1,9 @@
 <template>
     <nav class="navbar">
-        <NavbarItem label="About the shelter"></NavbarItem>
-        <NavbarItem label="Our pets"></NavbarItem>
-        <NavbarItem label="To help the shelter"></NavbarItem>
-        <NavbarItem label="Contacts"></NavbarItem>
+        <NavbarItem label="About the shelter" url="About"></NavbarItem>
+        <NavbarItem label="Our pets" url="Friends"></NavbarItem>
+        <NavbarItem label="To help the shelter" url="Help"></NavbarItem>
+        <NavbarItem label="Contacts" url="Contacts"></NavbarItem>
     </nav>
 </template>
 

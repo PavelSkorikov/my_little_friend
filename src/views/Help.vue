@@ -1,5 +1,6 @@
 <template>
     <div class="help">
+        <a name="help"></a>
         <div class="container">
             <div class="help__col">
                 <div class="help__title">
@@ -17,9 +18,9 @@
 </template>
 
 <script>
-    import Infobanner from "../components/Infobanner";
+    import Infobanner from "@/components/Infobanner";
     export default {
-        name: "help",
+        name: "Help",
         components: {
             Infobanner
         },

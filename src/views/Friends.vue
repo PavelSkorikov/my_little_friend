@@ -30,7 +30,7 @@
     import Buttons from "../components/Buttons";
     import Card from "../components/Card";
     export default {
-        name: "Our_friends",
+        name: "Friends",
         components: {
             Buttons,
             Card

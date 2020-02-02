@@ -3,10 +3,11 @@
     <div class="wrapper">
       <div class="content">
         <hi/>
-        <about/>
-        <Our_friends />
-        <Help />
+        <About><a name="about"></a></About>
+        <Friends><a name="friends"></a></Friends>
+        <Help><a name="help"></a></Help>
         <Donation />
+        <Contacts />
       </div>
     </div>
     <!-- /.wrapper -->
@@ -17,17 +18,19 @@
 <script>
 import Hi from '@/views/Hi.vue';
 import About from "@/views/About";
-import Our_friends from "./Our_friends";
-import Help from "./Help";
-import Donation from "./Donation";
+import Friends from "@/views/Friends";
+import Help from "@/views/Help";
+import Donation from "@/views/Donation";
+import Contacts from "@/views/Contacts";
 export default {
   name: 'home',
   components: {
     Hi,
     About,
-    Our_friends,
+    Friends,
     Help,
-    Donation
+    Donation,
+    Contacts
   }
 }
 </script>

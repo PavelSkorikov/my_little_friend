@@ -25,6 +25,7 @@
   .container {
     max-width: 834px;
     margin: 0px auto;
+    padding-left: 10px;
   }
   .about{
     max-width: 100%;

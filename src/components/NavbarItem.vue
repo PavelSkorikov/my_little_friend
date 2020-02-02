@@ -1,8 +1,8 @@
 <template>
     <div class="navbaritem" v-on:mouseover="mouseover" v-on:mouseleave="mouseleave">
-        <span class="navbaritem__label">
+        <a :href="url" class="navbaritem__label">
             {{ label }}
-        </span>
+        </a>
         <div class="navbaritem__underline" v-show="isHover">
         </div>
         <!-- /.navbaritem__underline -->
@@ -15,7 +15,8 @@
     export default {
         name: "NavbarItem",
         props: {
-            'label': String
+            'label': String,
+            'url': String
         },
         data () {
             return {
@@ -36,6 +37,7 @@
 
 <style scoped lang="scss">
     .navbaritem {
+        height: 32px;
         display: flex;
         flex-direction: column;
         cursor: pointer;
