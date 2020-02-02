@@ -5,10 +5,7 @@
         </a>
         <div class="navbaritem__underline" v-show="isHover">
         </div>
-        <!-- /.navbaritem__underline -->
-        <!-- /.navbaritem__label -->
     </div>
-    <!-- /.navbaritem -->
 </template>
 
 <script>
