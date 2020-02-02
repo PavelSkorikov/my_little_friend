@@ -15,7 +15,7 @@
 
 
             </div>
-            <Buttons label="Get to know the rest" big black/>
+            <Buttons label="Get to know the rest"  @button_click="$router.push('/contacts')" big black/>
             <!-- /.friends__carusel -->
         </div>
         <!-- /.friends__col -->

@@ -13,7 +13,7 @@
                             Not only people need a house
                         </p>
                         <p class="hi__annotate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis esse ipsam iste nostrum possimus provident quae quo repudiandae, similique, tempore unde. Aperiam odit optio reprehenderit voluptates! Minima, possimus, voluptas!</p>
-                        <Buttons label="Make a friend"/>
+                        <Buttons label="Make a friend" @button_click="$router.push('/friends')"/>
                     </div>
                 </div>
                 <div class="hi__col-2">
