@@ -17,9 +17,9 @@
                     </div>
                 </div>
                 <div class="hi__col-2">
-                    <div class="hi__navbar">
+                    <nav class="hi__navbar">
                         <Navbar></Navbar>
-                    </div>
+                    </nav>
                 </div>
             </div>
         </div>

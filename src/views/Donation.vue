@@ -1,5 +1,5 @@
 <template>
-<div class="donation">
+<section class="donation">
     <div class="container">
         <div class="donation__row">
             <img class="donation__img" src="@/assets/images/dog_12157.png" alt="">
@@ -25,7 +25,7 @@
         <!-- /.donation__row -->
     </div>
     <!-- /.container -->
-</div>
+</section>
 <!-- /.donation -->
 </template>
 

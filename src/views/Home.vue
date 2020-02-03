@@ -3,10 +3,12 @@
     <div class="wrapper">
       <div class="content">
         <hi/>
-        <About><a name="about"></a></About>
-        <Friends><a name="friends"></a></Friends>
-        <Help><a name="help"></a></Help>
-        <Donation />
+        <main>
+          <About><a name="about"></a></About>
+          <Friends><a name="friends"></a></Friends>
+          <Help><a name="help"></a></Help>
+          <Donation />
+        </main>
         <Contacts />
       </div>
     </div>

@@ -1,5 +1,5 @@
 <template>
-<div class="friends">
+<section class="friends">
     <div class="container">
         <div class="friends__col">
             <div class="friends__title">
@@ -22,7 +22,7 @@
 
     </div>
     <!-- /.container -->
-</div>
+</section>
 <!-- /.friends -->
 </template>
 

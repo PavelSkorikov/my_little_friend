@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <section class="about">
     <div class="container">
       <div class="about__row">
         <img class="about__img" src="@/assets/images/pets_12128.png" alt="">
@@ -12,7 +12,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
