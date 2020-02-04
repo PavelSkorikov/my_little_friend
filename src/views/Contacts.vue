@@ -42,7 +42,8 @@ for your visit
     }
     .contacts{
         max-width: 100%;
-        background-image: url(../assets/images/background_12165.png);
+        background: url(../assets/images/background.jpg) no-repeat;
+        background-size: cover;
         &__row{
             display: flex;
             justify-content: space-between;
