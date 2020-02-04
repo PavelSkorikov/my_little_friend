@@ -1,5 +1,6 @@
 <template>
     <footer class="contacts">
+        <a name="contacts"></a>
         <div class="container">
             <div class="contacts__row">
                 <div class="contacts__infoblock">

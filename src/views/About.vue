@@ -1,5 +1,6 @@
 <template>
   <section class="about">
+    <a name="about"></a>
     <div class="container">
       <div class="about__row">
         <img class="about__img" src="@/assets/images/pets_12128.png" alt="">

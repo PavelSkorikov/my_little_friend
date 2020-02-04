@@ -4,9 +4,9 @@
       <div class="content">
         <hi/>
         <main>
-          <About><a name="about"></a></About>
-          <Friends><a name="friends"></a></Friends>
-          <Help><a name="help"></a></Help>
+          <About></About>
+          <Friends></Friends>
+          <Help></Help>
           <Donation />
         </main>
         <Contacts />

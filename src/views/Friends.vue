@@ -1,5 +1,6 @@
 <template>
 <section class="friends">
+    <a name="friends"></a>
     <div class="container">
         <div class="friends__col">
             <div class="friends__title">
