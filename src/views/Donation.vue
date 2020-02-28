@@ -5,10 +5,10 @@
             <img class="donation__img" src="@/assets/images/dog_12157.png" alt="">
             <div class="donation__infoblock">
                 <div class="donation__title">
-                    In addition, you
-                    can make a donation
+                    Кроме того, вы
+                    может сделать пожертвование
                 </div>
-                <span class="donation__cardtitle">Name of the bank / Type of bank account</span>
+                <span class="donation__cardtitle">Наименование банка / тип банковского счета</span>
                 <div class="cardlink">
                     <img src="@/assets/images/credit_card.png" alt="">
                     <div class="cardlink__number">
@@ -16,7 +16,7 @@
                     </div>
                 </div>
                 <div class="donation__info">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam blanditiis est harum illum, laboriosam molestiae mollitia nihil nulla placeat, quasi temporibus velit vitae. Eum, id maxime quo repudiandae sapiente vitae!
+                    Самый простой, но при этом самый эффективный способ помочь животным – это сделать пожертвование.Все ваши пожертвования бездомным животным, сделанные через наш сайт, направляются на реализацию проектов Приюта. Спасибо, что не прошли мимо и помогли тем, кто не может попросить о помощи!
                 </div>
                 <!-- /.donation__info -->
             </div>

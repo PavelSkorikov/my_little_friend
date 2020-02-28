@@ -5,15 +5,15 @@
             <div class="hi__row">
                 <div class="hi__col-1">
                     <p class="hi__title">
-                        <span class="hi__name">Cozy House</span>
-                        <span class="hi__subname">Shelter for pets in Boston</span>
+                        <span class="hi__name">Уютный дом</span>
+                        <span class="hi__subname">Приют для домашних животных в Ростове на Дону</span>
                     </p>
                     <div class="hi__info">
                         <p class="hi__slogan">
-                            Not only people need a house
+                            Не только людям нужен дом
                         </p>
-                        <p class="hi__annotate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid debitis esse ipsam iste nostrum possimus provident quae quo repudiandae, similique, tempore unde. Aperiam odit optio reprehenderit voluptates! Minima, possimus, voluptas!</p>
-                        <Buttons label="Make a friend" @button_click="$router.push('/friends')"/>
+                        <p class="hi__annotate">Мы хотим, чтобы как можно больше людей, завели дома кошку или собаку из приюта. Потому что этот процесс затрагивает не только спасение животных, но и формирует в людях милосердие, они мгновенно получают мощный заряд положительной энергии и любви.</p>
+                        <Buttons label="Завести друга" @button_click="$router.push('/friends')"/>
                     </div>
                 </div>
                 <div class="hi__col-2">
@@ -76,7 +76,7 @@
             flex-wrap: wrap;
         }
         &__title {
-            max-width: 181px;
+            max-width: 210px;
             margin-bottom: 250px;
             @media (max-width: 1180px){
                margin-bottom: 50px;
@@ -86,7 +86,7 @@
             display: inline-block;
             font-family: georgia;
             font-size: 32px;
-            line-height: 29px;
+            line-height: 42px;
             font-weight: 400;
             letter-spacing: 0.033em;
             color: #f1cdb3;
@@ -105,20 +105,20 @@
             margin-bottom: 44px;
         }
         &__slogan {
-            max-width: 346px;
+            max-width: 400px;
             font-family: Georgia;
             font-size: 44px;
             line-height: 57px;
             font-weight: 300;
             letter-spacing: 0.05em;
             color: #ffffff;
-            @media (max-width: 680px){
+            @media (max-width: 780px){
                 font-size: 24px;
                 line-height: 27px;
             }
         }
         &__annotate {
-            margin-bottom: 44px;
+            margin-bottom: 24px;
             font-family: ArialMT;
             font-size: 15px;
             line-height: 24px;

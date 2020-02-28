@@ -34,7 +34,7 @@
             margin-left: 22px;
             font-family: TimesNewPSMT;
             font-size: 20px;
-            line-height: 15px;
+            line-height: 20px;
             font-weight: 400;
             letter-spacing: 0.06em;
             color: #f1cdb3;

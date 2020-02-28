@@ -5,10 +5,9 @@
       <div class="about__row">
         <img class="about__img" src="@/assets/images/pets_12128.png" alt="">
         <div class="about__info">
-          <div class="about__title">About the shelter “Cozy House”</div>
+          <div class="about__title">О приюте "Уютный дом”</div>
           <div class="about__text">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque consectetur eius id maxime perspiciatis porro sapiente sequi. Adipisci aut debitis distinctio et iure officia quas quo. Beatae incidunt, neque?</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid asperiores at corporis deleniti dolore, doloremque eveniet ex ipsum itaque magnam necessitatibus, non nulla odio officia omnis quasi tempora, temporibus!</p>
+            <p>Наш приют это место содержания бездомных, потерянных или брошенных животных, преимущественно собак и кошек. Приют является одной из ключевых составляющих защиты животных и выполняют четыре основных функции: оперативная помощь и забота о животном, включая облегчение страданий посредством ветеринарной, долгосрочная забота о животном, не нашедшем немедленно старого или нового хозяина; усилия по воссоединению потерянного животного с его прежним хозяином; поиск нового места обитания или нового хозяина для бездомного животного.</p>
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@
         <div class="container">
             <div class="help__col">
                 <div class="help__title">
-                    Than you can help our shelter
+                    Чем вы можете помочь нашему приюту
                 </div>
                 <div class="help__row1">
                     <Infobanner v-for="(item, index) in banners.slice(0, 5)" :key="index" :info="item.info" :url="item.url" />
@@ -27,15 +27,15 @@
         data () {
             return {
                 banners: [
-                    {info: 'Pet food', url: 'cat_food_11363.png'},
-                    {info: 'Transportation', url: 'ambulance_11347.png'},
-                    {info: 'Toys', url: 'ball_11354.png'},
-                    {info: 'Bowls and cups', url: 'bowl_11361.png'},
-                    {info: 'Shampoos', url: 'shampoo_11370.png'},
-                    {info: 'Vitamins', url: 'pills_11446.png'},
-                    {info: 'Medicines', url: 'syringe_11448.png'},
-                    {info: 'Collars / leashes', url: 'leash_11450.png'},
-                    {info: 'Sleeping area', url: 'cat_11456.png'},
+                    {info: 'Корм', url: 'cat_food_11363.png'},
+                    {info: 'Перевозка', url: 'ambulance_11347.png'},
+                    {info: 'Игрушки', url: 'ball_11354.png'},
+                    {info: 'Миски и чашки', url: 'bowl_11361.png'},
+                    {info: 'Шампуни', url: 'shampoo_11370.png'},
+                    {info: 'Витамины', url: 'pills_11446.png'},
+                    {info: 'Медикаменты', url: 'syringe_11448.png'},
+                    {info: 'Ошейники / поводки', url: 'leash_11450.png'},
+                    {info: 'Зона отдыха', url: 'cat_11456.png'},
                 ]
             }
         }

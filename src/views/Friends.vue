@@ -4,8 +4,8 @@
     <div class="container">
         <div class="friends__col">
             <div class="friends__title">
-                <span>Our friends who</span>
-                <span>are looking for a house</span>
+                <span>Наши друзья, которые</span>
+                <span>ищут дом</span>
             </div>
             <div class="friends__carusel">
                 <Buttons @button_click="previos" label="navigate_before" black small></Buttons>
@@ -16,7 +16,7 @@
 
 
             </div>
-            <Buttons label="Get to know the rest"  @button_click="$router.push('/contacts')" big black/>
+            <Buttons label="Познакомьтесь с остальными"  @button_click="$router.push('/contacts')" big black/>
             <!-- /.friends__carusel -->
         </div>
         <!-- /.friends__col -->

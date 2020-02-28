@@ -5,19 +5,19 @@
             <div class="contacts__row">
                 <div class="contacts__infoblock">
 <pre class="contacts__title">
-For questions
-and suggestions
+Для вопросов
+и предложений
 </pre>
                     <Contact class="contacts__contact-style1" ico="envelope.png" info="email@shelter.com"/>
                     <Contact ico="telephone.png" info="+13 674 567 75 54"/>
                 </div>
                 <div class="contacts__infoblock">
 <pre class="contacts__title">
-We are waiting
-for your visit
+Мы ждем
+вашего визита
 </pre>
-                    <Contact class="contacts__contact-style1" ico="pin.png" info="Boston, Central Street, 1st (Entrance from the store)"/>
-                    <Contact ico="pin.png" info="London, South Park, 18st"/> <!-- /.contacts__title -->
+                    <Contact class="contacts__contact-style1" ico="pin.png" info="Ростов на Дону, ул. Садовая, 124"/>
+                    <Contact ico="pin.png" info="Воронеж, ул. Ленина, 182"/> <!-- /.contacts__title -->
                 </div>
                 <img class="contacts__image" src="@/assets/images/dog_11544.png" alt="">
             </div>

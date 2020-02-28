@@ -12,8 +12,6 @@
         <Contacts />
       </div>
     </div>
-    <!-- /.wrapper -->
-
   </div>
 </template>
 

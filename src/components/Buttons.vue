@@ -63,7 +63,7 @@
             border: 2px solid #f1cdb3;
         }
         &_isbig{
-            width: 267px;
+            width: 300px;
         }
         &_issmall{
             width: 50px;

@@ -1,9 +1,9 @@
 <template>
     <nav class="navbar">
-        <NavbarItem label="About the shelter" url="/#about"></NavbarItem>
-        <NavbarItem label="Our pets" url="/#friends"></NavbarItem>
-        <NavbarItem label="To help the shelter" url="/#help"></NavbarItem>
-        <NavbarItem label="Contacts" url="/#contacts"></NavbarItem>
+        <NavbarItem label="О приюте" url="/#about"></NavbarItem>
+        <NavbarItem label="Наши животные" url="/#friends"></NavbarItem>
+        <NavbarItem label="Помочь приюту" url="/#help"></NavbarItem>
+        <NavbarItem label="Контакты" url="/#contacts"></NavbarItem>
     </nav>
 </template>
 
