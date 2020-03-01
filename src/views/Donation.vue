@@ -61,6 +61,7 @@
         }
         &__infoblock{
             max-width: 358px;
+            width: 100%;
             display: flex;
             flex-direction: column;
         }
@@ -83,6 +84,7 @@
             color: #545454;
         }
         &__info{
+            width: 100%;
             font-family: ArialMT;
             font-size: 12px;
             line-height: 18px;

@@ -43,6 +43,7 @@
       display: flex;
       flex-direction: column;
       max-width: 414px;
+      width: 100%;
       @media (max-width: 712px) {
         padding-left: 10px;
         padding-right: 10px;
